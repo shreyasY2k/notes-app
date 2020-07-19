@@ -28,7 +28,7 @@ a {
 /* Container */
 
 .container {
-  max-width: 100%;
+  max-width: 60rem;
   margin: 0 auto;
   padding: 0 1.6rem;
 }
@@ -62,7 +62,7 @@ a {
 .actions__container {
     align-items: center;
     display: flex;
-    max-width: inherit;
+    max-width: 60rem;
     margin: 0 auto;
     min-height: 3rem;
     padding: 0 1.6rem;
@@ -131,7 +131,7 @@ a {
     display: block;
     margin: 2.4rem 0;
     padding: .8rem;
-    width: inherit;
+    width: 100%;
     border-radius: 10px;
 }
 
@@ -144,7 +144,7 @@ a {
     margin: 2.4rem 0;
     min-height: 15rem;
     padding: .8rem;
-    width: inherit;
+    width: 100%;
 }
 
 /* Note List Item */
@@ -169,7 +169,7 @@ a {
     border: none;
     border-radius: 30px;
     padding: .30rem;
-    position: inherit;
+    position: relative;
 }
 
 .list-item__removebutton:hover {
