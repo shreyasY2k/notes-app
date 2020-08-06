@@ -52,16 +52,13 @@ const generateNoteDOM = (note) => {
         location.assign('index.html')
         removeNote(note,note.id)
         saveNotes(notes)
+       })
     
     
     //Status Message
     statusEl.textContent = generatelastEdited(note.updatedAt)
     textEl.classList.add('list-item__subtitle')
     noteEl.appendChild(statusEl)
-    
-        
-        
-    })
 
     return noteEl
 }
