@@ -44,13 +44,7 @@ const generateNoteDOM = (note) => {
     //Setup the link
     noteEl.setAttribute('href', `edit.html#${note.id}`)
     noteEl.classList.add('list-item')
-
-    //Status Message
-    statusEl.textContent = generatelastEdited(note.updatedAt)
-    textEl.classList.add('list-item__subtitle')
-    noteEl.appendChild(statusEl)
-    
-        //Remove Element
+//Remove Element
         removeEl.textContent = 'Remove'
         removeEl.classList.add('list-item__removebutton')
         noteEl.appendChild(removeEl)
@@ -58,6 +52,14 @@ const generateNoteDOM = (note) => {
         location.assign('index.html')
         removeNote(note,note.id)
         saveNotes(notes)
+    
+    
+    //Status Message
+    statusEl.textContent = generatelastEdited(note.updatedAt)
+    textEl.classList.add('list-item__subtitle')
+    noteEl.appendChild(statusEl)
+    
+        
         
     })
 
