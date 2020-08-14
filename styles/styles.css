@@ -15,6 +15,7 @@ body {
     color: #333333;
     font-family: Helvetica, Arial, sans-serif;
     font-size: 1.6rem;
+
 }
 
 button {
@@ -161,7 +162,9 @@ a {
 }
 
 .list-item:hover {
+    text-decoration: none;
     background: #eeeeee;
+    color: #333333;
 }
 
 .list-item__removebutton{
@@ -175,12 +178,15 @@ a {
 }
 
 .list-item__removebutton:hover {
+    text-decoration: none;
+    color: red;
     background: rgb(248, 184, 184);
 }
 
 .list-item__title {
     font-size: 1.8rem;
-    margin-bottom: .4rem
+    margin-bottom: .4rem;
+    text-decoration: none;
 }
 
 .list-item__subtitle {
@@ -188,10 +194,12 @@ a {
     font-size: 1.4rem;
     font-weight: 300;
     font-style: italic;
+    text-decoration: none;
 }
 
 .empty-message {
     color:black;
     text-align: center;
     margin: 3.2rem 0;
+    text-decoration: none;
 }
