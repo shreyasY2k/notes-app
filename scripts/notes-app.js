@@ -1,5 +1,8 @@
 let notes = getSavedNotes()
 
+import axios from 'axios'; //suggested to use mongdb and express
+import mongoose from 'mongoose';
+
 const filters = {
     searchText: '',
     sortBy: 'byEdited'
